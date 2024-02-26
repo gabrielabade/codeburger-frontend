@@ -42,6 +42,17 @@ export const ContainerItens = styled.div`
     text-align: center;
     margin-top: 10vh;
   }
+
+  @media screen and (max-width: 600px) {
+    padding: 50px 5%;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    padding: 70px 10%;
+  }
+  @media screen and (min-width: 1025px) {
+    padding: 90px 15%;
+  }
 `
 
 export const Label = styled.p`
