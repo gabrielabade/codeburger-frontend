@@ -82,6 +82,7 @@ export function Login() {
             type="password"
             {...register('password')}
             error={errors.password?.message}
+            autoComplete="current-password"
           />
           <ErrorMessage>{errors.password?.message}</ErrorMessage>
 
