@@ -32,5 +32,5 @@ CodeBurger é uma plataforma de comércio eletrônico fictícia para pedidos de 
 
 O projeto CodeBurger está disponível no seguinte link:
 
-- [Front-end - Deploy](https://codeburger-gabrielabade.vercel.app/login)
+- [CodeBurger - Deploy](https://codeburger-gabrielabade.vercel.app/login)
 
