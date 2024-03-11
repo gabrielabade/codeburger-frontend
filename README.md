@@ -23,3 +23,14 @@ CodeBurger é uma plataforma de comércio eletrônico fictícia para pedidos de 
 - Yup
 - LocalStorage
 - Toastify
+
+## Repositório Back-end
+
+[Repositório Back-end](https://github.com/gabrielabade/codeburger-backend.git)
+
+## Deploy
+
+O projeto CodeBurger está disponível no seguinte link:
+
+- [Front-end - Deploy](https://codeburger-gabrielabade.vercel.app/login)
+
