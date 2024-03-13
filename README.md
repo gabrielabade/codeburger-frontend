@@ -1,28 +1,26 @@
 # CodeBurger
 
-CodeBurger é uma plataforma de comércio eletrônico fictícia para pedidos de hambúrgueres online.
+CodeBurger é uma aplicação web desenvolvida para simular um sistema de pedidos de hambúrgueres. Ele oferece funcionalidades tanto para clientes quanto para administradores, proporcionando uma experiência de usuário fluida e eficiente.
 
-## Estrutura do Projeto
-## Contêineres
-
-- **Admin:** Gerencia funcionalidades administrativas, como listar produtos, editar produtos e lidar com pedidos.
-- **Orders:** Lida com funcionalidades de gerenciamento de pedidos, incluindo filtragem de pedidos com base no status.
-- **Login:** Fornece um formulário de login para os usuários se autenticarem.
-- **Register:** Permite que os usuários criem uma nova conta.
-- **Home:** Representa a página inicial da aplicação, mostrando várias categorias de produtos e carrossel de ofertas.
-- **Products:** Exibe uma lista de produtos disponíveis para compra podendo serem selecionados por categoria.
-- **Cart:** Exibe o carrinho do usuário, incluindo itens selecionados e seus detalhes.
+## Destaques do Projeto
+### Cliente:
+- Cadastro e login do usuário
+- Página principal com navegação intuitiva (carrossel de categorias e ofertas)
+- Página de produtos com navegação entre categorias
+- Carrinho de compras com adição e remoção de itens
+### Administrador:
+- Gerenciamento completo de produtos (adição e edição)
+- Controle de pedidos com visualização, filtragem e atualização de status
 
 ## Tecnologias
 
-- React
-- React Router
-- Axios
-- Material-UI
-- React Hook Form
-- Yup
-- LocalStorage
-- Toastify
+- **React**: Flexibilidade na construção de interfaces e arquitetura baseada em componentes
+- **React Router**: Gerenciamento fluido da navegação na aplicação
+- **Axios**: Comunicação eficiente entre frontend e backend
+- **Material-UI**: Componentes estilizados prontos para uso que se integram bem com o React
+- **React Hook Form** e **Yup**: Validação de formulários de forma simples e eficiente
+- **LocalStorage**: Armazenamento local de dados no navegador do usuário
+- **React Toastify**: Exibição elegante de mensagens de notificação
 
 ## Repositório Back-end
 
@@ -34,3 +32,18 @@ O projeto CodeBurger está disponível no seguinte link:
 
 - [CodeBurger - Deploy](https://codeburger-gabrielabade.vercel.app/login)
 
+## Preview
+
+### Painel Cliente
+
+<img src=".github/tela-cadastro.png" alt="Preview do projeto" width="400">
+<img src=".github/tela-login.png" alt="Preview do projeto" width="400">
+<img src=".github/tela-home.png" alt="Preview do projeto" width="400">
+<img src=".github/tela-produtos-filter-category.png" alt="Preview do projeto" width="400">
+<img src=".github/tela-carrinho.png" alt="Preview do projeto" width="400">
+
+### Painel Administrador
+
+<img src=".github/tela-de-pedidos.png" alt="Preview do projeto" width="400">
+<img src=".github/listagem-de-produtos.png" alt="Preview do projeto" width="400">
+<img src=".github/novo-produto.png" alt="Preview do projeto" width="400">
